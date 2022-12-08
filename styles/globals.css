@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply font-[poppins] scroll-smooth duration-300;
-  }
+html {
+  scroll-behavior: smooth;
 }

@@ -8,11 +8,13 @@ import img5 from "../public/img5.jpg";
 
 const Follow = () => {
   return (
-    <section className="px-6 lg:px-16 w-full pt-16 mx-auto bg-orange-100 relative">
+    <section
+      id="contact"
+      className="px-6 lg:px-16 w-full pt-16 mx-auto bg-orange-100 relative">
       <h1 className="text-3xl font-semibold text-center">
         Follow me @olivegrace
       </h1>
-      <div className="relative pt-8 -bottom-10 flex justify-between">
+      <div className="relative pt-8 -bottom-10 flex md:justify-between justify-around mx-auto flex-wrap gap-4">
         <div className="relative w-60 h-60">
           <Image
             src={img1}

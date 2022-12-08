@@ -11,8 +11,8 @@ import {
 const Footer = () => {
   const copyrightYear = new Date();
   return (
-    <footer className="px-6 lg:px-16 mx-auto pt-24 pb-8 flex w-full justify-between items-center">
-      <ul className="flex space-x-6">
+    <footer className="px-6 lg:px-16 space-y-6 md:space-y-0 mx-auto pt-24 pb-8 flex flex-col md:flex-row w-full justify-between md:items-center">
+      <ul className="flex text-xl font-bold space-y-3 md:space-y-0 flex-col md:flex-row md:space-x-6">
         <li className="">
           <Link href={"#home"}>Home</Link>
         </li>

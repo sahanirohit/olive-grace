@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="py-16 overflow-hidden px-6 lg:px-16 grid gap-8 grid-cols-3">
+      className="py-16 overflow-hidden px-6 lg:px-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
       <div className="relative w-full">
         {/* <div className="absolute w-full -top-10 -left-10 z-0 bg-orange-100"></div> */}
         <div className="relative h-[36rem]">

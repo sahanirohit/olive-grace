@@ -4,8 +4,10 @@ import heroImage from "../public/hero-image.jpg";
 
 const Hero = () => {
   return (
-    <section className="px-6 lg:px-16 mx-auto grid grid-cols-1 lg:grid-cols-2 min-h-[88vh] min-w-min py-8 gap-8">
-      <div className="relative">
+    <section
+      id="about"
+      className="px-6 lg:px-16 mx-auto grid grid-cols-1 lg:grid-cols-2 min-h-[88vh] min-w-min py-8 gap-8">
+      <div className="relative h-[32rem] lg:h-auto">
         <Image
           src={heroImage}
           className="object-cover"
@@ -14,7 +16,7 @@ const Hero = () => {
           alt="hello"
         />
       </div>
-      <div className=" bg-orange-100 flex flex-col items-center justify-center text-center space-y-6 px-6">
+      <div className=" bg-orange-100 h-96 lg:h-auto flex flex-col items-center justify-center text-center space-y-6 px-6">
         <h1 className=" uppercase text-5xl font-bold">About me</h1>
         <p className="text-lg max-w-lg">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
